@@ -1,10 +1,12 @@
+import video from "../../public/assets/video/girlPlant.mp4"
+
 const MainVideo = () => {
   return (
     <div className="w-full  mb-[40px]">
       <div>
         {" "}
         <video
-          src={require("../../public/assets/video/girlPlant.mp4")}
+          src={video}
           autoPlay
           muted
           loop
