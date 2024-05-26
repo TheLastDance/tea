@@ -1,4 +1,4 @@
-import video from "../../public/assets/video/girlPlant.mp4"
+
 
 const MainVideo = () => {
   return (
@@ -6,7 +6,7 @@ const MainVideo = () => {
       <div>
         {" "}
         <video
-          src={video}
+          src={require("/public/assets/video/girlPlant.mp4")}
           autoPlay
           muted
           loop
